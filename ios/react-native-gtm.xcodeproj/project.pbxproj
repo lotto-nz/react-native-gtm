@@ -10,7 +10,6 @@
 		1EE5431A1D2B58AC003A909C /* react_native_gtm.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EE543191D2B58AC003A909C /* react_native_gtm.h */; };
 		1EE5431C1D2B58AC003A909C /* react_native_gtm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE5431B1D2B58AC003A909C /* react_native_gtm.m */; };
 		1EE543E51D2B632F003A909C /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE543DE1D2B632F003A909C /* libGoogleAnalyticsServices.a */; };
-		1EE5446E1D2B6902003A909C /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE5446D1D2B6902003A909C /* libAdIdAccess.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,7 +45,6 @@
 		1EE543E11D2B632F003A909C /* TAGDataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
 		1EE543E21D2B632F003A909C /* TAGLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
 		1EE543E31D2B632F003A909C /* TAGManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
-		1EE5446D1D2B6902003A909C /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +53,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE543E51D2B632F003A909C /* libGoogleAnalyticsServices.a in Frameworks */,
-				1EE5446E1D2B6902003A909C /* libAdIdAccess.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +88,6 @@
 		1EE543D21D2B632F003A909C /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				1EE5446D1D2B6902003A909C /* libAdIdAccess.a */,
 				1EE543D31D2B632F003A909C /* GAI.h */,
 				1EE543D41D2B632F003A909C /* GAIDictionaryBuilder.h */,
 				1EE543D51D2B632F003A909C /* GAIEcommerceFields.h */,

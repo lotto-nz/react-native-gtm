@@ -25,7 +25,6 @@ React Native wrapper package for using native Google tag manager libraries on iO
     SystemConfiguration.framework
     libz.tbd
     libsqlite3.0.tbd
-    AdSupport.framework
     ```
 
 ## How to use
